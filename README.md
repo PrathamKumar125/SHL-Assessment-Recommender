@@ -40,7 +40,7 @@ API_URL=http://localhost:8000
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/PrathamKumar125/SHL-Assessment-Recommender
    cd SHL-Assessment-Recommender
    ```
 
