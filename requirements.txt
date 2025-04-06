@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+google-generativeai
+gradio
+requests
+beautifulsoup4
+firecrawl

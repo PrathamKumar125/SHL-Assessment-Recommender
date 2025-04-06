@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  shl-assessment-recommender:
+    build: .
+    ports:
+      - "8000:8000"  # FastAPI
+      - "7860:7860"  # Gradio
+    volumes:
+      - ./logs:/app/logs
+      - ./shl_assessments_cache.json:/app/shl_assessments_cache.json
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - FIRECRAWL_API_KEY=${FIRECRAWL_API_KEY}
+      - API_URL=http://localhost:8000
