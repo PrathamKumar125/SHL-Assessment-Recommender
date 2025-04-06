@@ -2,7 +2,19 @@
 
 A web application that recommends SHL assessments based on job descriptions. It uses AI to analyze job requirements and match them with appropriate SHL assessment tools.
 
-## Features
+**Deployed on Hugging Face Spaces**: https://huggingface.co/spaces/pratham0011/SHL-Assessment-Recommender
+
+<br>
+
+## Features![Screenshot 2025-04-06 002253](https://github.com/user-attachments/assets/9b05ffa6-6cd1-4765-bf96-fcf941d13174)
+
+<br>
+
+
+![Screenshot 2025-04-06 002200](https://github.com/user-attachments/assets/1b920daf-7c2f-4021-b732-965c5e97ec6d)
+
+<br>
+
 
 - **Job Description Analysis**: Enter job descriptions directly or provide a URL to a job posting
 - **AI-Powered Recommendations**: Uses Google's Gemini AI to analyze requirements and recommend relevant assessments
